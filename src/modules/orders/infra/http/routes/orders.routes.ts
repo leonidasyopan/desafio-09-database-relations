@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import OrdersController from '../controller/OrdersController';
+import OrdersController from '@modules/orders/infra/http/controller/OrdersController';
 
 const ordersRouter = Router();
 const ordersController = new OrdersController();

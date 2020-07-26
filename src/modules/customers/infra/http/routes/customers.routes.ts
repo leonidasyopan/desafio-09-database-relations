@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import CustomersController from '../controller/CustomersController';
+import CustomersController from '@modules/customers/infra/http/controller/CustomersController';
 
 const customersRouter = Router();
 const customersController = new CustomersController();

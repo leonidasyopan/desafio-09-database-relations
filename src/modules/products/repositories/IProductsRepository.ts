@@ -1,7 +1,7 @@
-import Product from '../infra/typeorm/entities/Product';
+import Product from '@modules/products/infra/typeorm/entities/Product';
 
-import ICreateProductDTO from '../dtos/ICreateProductDTO';
-import IUpdateProductsQuantityDTO from '../dtos/IUpdateProductsQuantityDTO';
+import ICreateProductDTO from '@modules/products/dtos/ICreateProductDTO';
+import IUpdateProductsQuantityDTO from '@modules/products/dtos/IUpdateProductsQuantityDTO';
 
 interface IFindProducts {
   id: string;
